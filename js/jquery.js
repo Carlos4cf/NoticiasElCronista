@@ -1,15 +1,8 @@
-
-var miJ = "A1":{"valor":"100", "color":"azul", "caracteristica":{"tipo":"S1","ref":"MMM"}},
-};
-   
+ 
 
 $(document).ready(function(){
  
- $.each(miJSON, function(i,item){
-    $("#tP").append(miJ[0].valor);
-    
 
-    });
 
 /*
 $(function() {
