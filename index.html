@@ -13,17 +13,23 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<link rel="alternate" type="application/rss+xml" title="Noticias El Cronista" href="rss/rss.xml">
    <script src="js/jquery.js"></script>
+   <meta property="og:site_name" content="Noticias El Cronista">
+<meta property="og:url" content="https://rawgit.com/Carlos4cf/NoticiasElCronista/master/index.html">
+<meta property="og:title" content="Noticias El Cronista">
+<meta property="og:image" content="https://rawgit.com/Carlos4cf/NoticiasElCronista/master/img/inicio.png">
+<meta property="og:description" content="Noticias originales del mundo">
   <title></title>
 
 </head>
 <body>
 <div class="container-fluid">
 <div class="jumbotron text-center"><img src="img/inicio.png" alt="banner inicio" id="uno"></div>
+
 <div class="row">
 <div class="col-md-1 cabecera"></div>
-<div class="col-md-2 cabeceraB"><button type="button" class="btn btn-primary">INICIO</button></div>
+<div class="col-md-2 cabeceraB"><a href="index.html"><img src="img/inicioI.png"></a><div id="face"></div><div id="twitter"></div></div>
 <div class="col-md-2 cabecera"></div>
 <div class="col-md-2 cabecera"></div>
 <div class="col-md-2 cabecera"></div>
@@ -34,7 +40,7 @@
 <div class="container bannerpubli">
 <div class="row">
 <div class="col-md-2 col-md-offset-9 publicidad1">
-      <img class="img-responsive" src="img/publiV.jpg" id="publiIMG" alt="imagen aqui">
+      <img class="img-responsive" src="img/publi.png" id="publiIMG" alt="imagen aqui"><img class="img-responsive" src="img/bannerMovil.png" id="publiOculta" alt="imagen aqui">
     </a></div>
 
 
@@ -52,7 +58,7 @@
 <div class="col-md-1"> </div>
 <div class="col-md-4 fotonoticia">    
     <a href="news1.html" class="img-rounded">
-      <img class="img-responsive" src="img/lobo2.png" alt="imagen aqui">
+      <img class="img-responsive" src="img/noticia1.jpg" alt="imagen aqui">
     </a>
   </div>
   
@@ -103,7 +109,7 @@ Cuando Joe publicó su historia, muchos usuarios no le creyeron y por eso comenz
 <div class="col-md-1"> </div>
 <div class="col-md-4 fotonoticia">    
 
-        <a href="news2.html" class="img-rounded"><img class="img-responsive" src="img/lobo2.png" alt="imagen aqui"></a>
+        <a href="news2.html" class="img-rounded"><img class="img-responsive" src="img/noticia2.jpg" alt="imagen aqui"></a>
   
   </div>
 
@@ -147,7 +153,7 @@ La médica fue despedida del centro en el que sucedieron los hechos y la directo
 <div class="container">
 <div class="row">
 <div class="col-md-1"> </div>
-<div class="col-md-10 titulo1"><a href="news3.html">Hallan un murciélago muerto en una ensalada envasada en EEUU</a></div>
+<div class="col-md-10 titulo1">Hallan un murciélago muerto en una ensalada envasada en EEUU</div>
 <div class="col-md-1"> </div>
 </div>
 
@@ -156,7 +162,7 @@ La médica fue despedida del centro en el que sucedieron los hechos y la directo
 <div class="col-md-4 fotonoticia">    
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/p-GXHLfbTOk"></iframe>
+    <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/n_tGFKHOqG4"></iframe>
    
 </div>
   
@@ -194,7 +200,7 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="row">
 <div class="col-md-1"> </div>
 <div class="col-md-5"></div>
-<div class="col-md-2 ls1"><img class="img-responsive" id="botonCarga" src="img/1.png" alt="imagen aqui"></div>
+<div class="col-md-2 ls1"><img class="img-responsive" id="botonCarga" src="img/1y.png" alt="imagen aqui"></div>
 <div class="col-md-3"></div>
 <div class="col-md-1"> </div>
 </div>
@@ -210,11 +216,13 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 
 
 <!-- lo que se tiene que ver -->
+
 <div class="ocultar1">
+<div id="c1"></div>
 <div class="container">
 <div class="row">
 <div class="col-md-1"> </div>
-<div class="col-md-10 titulo1"><a href="news1.html"><class id="tP">titulo</class></a></div>
+<div class="col-md-10 titulo1"><class id="elem1"></class></div>
 <div class="col-md-1"> </div>
 </div>
 
@@ -222,15 +230,15 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="col-md-1"> </div>
 <div class="col-md-4 fotonoticia">    
     <a href="news1.html" class="img-rounded">
-      <img class="img-responsive" src="img/lobo2.png" alt="imagen aqui">
+      <div id="elem2"></div>
     </a>
   </div>
   
 
 <div class="col-md-1"> </div>
 <div class="col-md-5 texto1"> 
-<h3>fecha</h3>
-<p>texto </p>
+<h3><class id="elem3"></class></h3>
+<p><class id="elem4"></class></p>
 </div>
 <div class="col-md-1"> </div>
 
@@ -249,7 +257,7 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="container">
 <div class="row">
 <div class="col-md-1"> </div>
-<div class="col-md-10 titulo1"><a href="news1.html">titulo</a></div>
+<div class="col-md-10 titulo1"><class id="elem11"></class></div>
 <div class="col-md-1"> </div>
 </div>
 
@@ -257,15 +265,49 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="col-md-1"> </div>
 <div class="col-md-4 fotonoticia">    
     <a href="news1.html" class="img-rounded">
-      <img class="img-responsive" src="img/lobo2.png" alt="imagen aqui">
+      <div id="elem22"></div>
     </a>
   </div>
   
 
 <div class="col-md-1"> </div>
 <div class="col-md-5 texto1"> 
-<h3>fecha</h3>
-<p>texto </p>
+<h3><class id="elem33"></class></h3>
+<p><class id="elem44"></class> </p>
+</div>
+<div class="col-md-1"> </div>
+
+</div>
+
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-1"> </div>
+<div class="col-md-10 ls"></div>
+<div class="col-md-1"> </div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-1"> </div>
+<div class="col-md-10 titulo1"><a href="index.html"><class id="elem111"></class></a></div>
+<div class="col-md-1"> </div>
+</div>
+
+<div class="row">
+<div class="col-md-1"> </div>
+<div class="col-md-4 fotonoticia">    
+    <a href="news1.html" class="img-rounded">
+     <div id="elem222"></div>
+    </a>
+  </div>
+  
+
+<div class="col-md-1"> </div>
+<div class="col-md-5 texto1"> 
+<h3><class id="elem333"></class></h3>
+<p><class id="elem444"></class> </p>
 </div>
 <div class="col-md-1"> </div>
 
@@ -284,12 +326,12 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="row">
 <div class="col-md-1"> </div>
 <div class="col-md-5"></div>
-<div class="col-md-2 ls1"><img class="img-responsive" id="botonCarga2" src="img/1.png" alt="imagen aqui"></div>
+<div class="col-md-2 ls1"><img class="img-responsive" id="botonCarga2" src="img/1y.png" alt="imagen aqui"></div>
 <div class="col-md-3"></div>
 <div class="col-md-1"> </div>
 </div>
 </div>
-<div class="container bottomD">
+<div class="container bottomD2">
 <div class="row">
 <div class="col-md-1"> </div>
 <div class="col-md-10 ls3"></div>
@@ -305,7 +347,7 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="container">
 <div class="row">
 <div class="col-md-1"> </div>
-<div class="col-md-10 titulo1"><a href="news1.html">titulo</a></div>
+<div class="col-md-10 titulo1"><a href="index.html"><class id="p1"></class></a></div>
 <div class="col-md-1"> </div>
 </div>
 
@@ -313,15 +355,15 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="col-md-1"> </div>
 <div class="col-md-4 fotonoticia">    
     <a href="news1.html" class="img-rounded">
-      <img class="img-responsive" src="img/lobo2.png" alt="imagen aqui">
+     <div id="p2"></div>
     </a>
   </div>
   
 
 <div class="col-md-1"> </div>
 <div class="col-md-5 texto1"> 
-<h3>fecha</h3>
-<p>texto </p>
+<h3><class id="p3"></class></h3>
+<p><class id="p4"></class></p>
 </div>
 <div class="col-md-1"> </div>
 
@@ -340,7 +382,7 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="container">
 <div class="row">
 <div class="col-md-1"> </div>
-<div class="col-md-10 titulo1"><a href="news1.html">titulo</a></div>
+<div class="col-md-10 titulo1"><a href="index.html"><class id="p11"></class></a></div>
 <div class="col-md-1"> </div>
 </div>
 
@@ -348,15 +390,48 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 <div class="col-md-1"> </div>
 <div class="col-md-4 fotonoticia">    
     <a href="news1.html" class="img-rounded">
-      <img class="img-responsive" src="img/lobo2.png" alt="imagen aqui">
+      <div id="p22"></div>
     </a>
   </div>
   
 
 <div class="col-md-1"> </div>
 <div class="col-md-5 texto1"> 
-<h3>fecha</h3>
-<p>texto </p>
+<h3><class id="p33"></class></h3>
+<p><class id="p44"></class></p>
+</div>
+<div class="col-md-1"> </div>
+
+</div>
+
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-1"> </div>
+<div class="col-md-10 ls"></div>
+<div class="col-md-1"> </div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-1"> </div>
+<div class="col-md-10 titulo1"><a href="index.html"><class id="p111"></class></a></div>
+<div class="col-md-1"> </div>
+</div>
+
+<div class="row">
+<div class="col-md-1"> </div>
+<div class="col-md-4 fotonoticia">    
+    <a href="news1.html" class="img-rounded">
+  <div id="p222"></div>
+    </a>
+  </div>
+  
+
+<div class="col-md-1"> </div>
+<div class="col-md-5 texto1"> 
+<h3><class id="p333"></class></h3>
+<p><class id="p444"></class></p>
 </div>
 <div class="col-md-1"> </div>
 
@@ -382,3 +457,4 @@ Fresh Express pide a aquellos consumidores que hayan adquirido el producto de la
 </div>
 </body>
 </html>
+
