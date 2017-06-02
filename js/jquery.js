@@ -45,55 +45,12 @@ $('#twitter').append($('
   });
   function ponerNoticias(json) {
   $.each(json,function(i,news1){
-  $('#padre').append($("
-  <div class='container'>
-    <div class='row'>
-      <div class='col-md-1'> </div>
-      <div class='col-md-10 titulo1'>"+news1.titulo+"</div>
-      <div class='col-md-1'> </div>
-    </div>
-    <div class='row'>
-      <div class='col-md-1'> </div>
-      <div class='col-md-4 fotonoticia'> <img class='img-responsive' src='"+news1.foto1+"' alt='imagen aqui'> </div>
-      <div class='col-md-1'> </div>
-      <div class='col-md-5 texto1'>
-        <h3>"+news1.fecha+"</h3>
-        <p>"+news1.texto+"</p>
-      </div>
-      <div class='col-md-1'> </div>
-    </div>
-  </div>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-md-1'> </div>
-      <div class='col-md-10 ls'></div>
-      <div class='col-md-1'> </div>
-    </div>
-  </div>
-  "))
+    $('#padre').append($("<div class='container'><div class='row'><div class='col-md-1'> </div><div class='col-md-10 titulo1'>"+news1.titulo+"</div><div class='col-md-1'> </div></div><div class='row'><div class='col-md-1'> </div><div class='col-md-4 fotonoticia'> <img class='img-responsive' src='"+news1.foto1+"' alt='imagen aqui'> </div><div class='col-md-1'> </div><div class='col-md-5 texto1'> <h3>"+news1.fecha+"</h3><p>"+news1.texto+"</p></div><div class='col-md-1'> </div></div></div><div class='container'><div class='row'><div class='col-md-1'> </div><div class='col-md-10 ls'></div><div class='col-md-1'> </div></div></div>"))  
   });
   }
   function ponerNoticias1(json) {
   $.each(json,function(i,news2){
-  $('#padre').append($("
-  <div class='container'>
-    <div class='row'>
-      <div class='col-md-1'> </div>
-      <div class='col-md-10 titulo1'>"+news2.titulo+"</div>
-      <div class='col-md-1'> </div>
-    </div>
-    <div class='row'>
-      <div class='col-md-1'> </div>
-      <div class='col-md-4 fotonoticia'> 
-<a href='news1.html' class='img-rounded'> <img class='img-responsive' src='"+news2.foto1+"' alt='imagen aqui'> </a> </div><div class='col-md-1'> </div><div class='col-md-5 texto1'> <h3>"+news2.fecha+"</h3><p>"+news2.texto+"</p></div><div class='col-md-1'> </div></div></div>
-<div class='container'>
-  <div class='row'>
-    <div class='col-md-1'> </div>
-    <div class='col-md-10 ls'></div>
-    <div class='col-md-1'> </div>
-  </div>
-</div>
-"))
+     $('#padre').append($("<div class='container'><div class='row'><div class='col-md-1'> </div><div class='col-md-10 titulo1'>"+news2.titulo+"</div><div class='col-md-1'> </div></div><div class='row'><div class='col-md-1'> </div><div class='col-md-4 fotonoticia'> <a href='news1.html' class='img-rounded'> <img class='img-responsive' src='"+news2.foto1+"' alt='imagen aqui'> </a> </div><div class='col-md-1'> </div><div class='col-md-5 texto1'> <h3>"+news2.fecha+"</h3><p>"+news2.texto+"</p></div><div class='col-md-1'> </div></div></div><div class='container'><div class='row'><div class='col-md-1'> </div><div class='col-md-10 ls'></div><div class='col-md-1'> </div></div></div>"))
 });
 }
 function cargarNoticias() {
