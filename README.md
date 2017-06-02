@@ -1,6 +1,6 @@
 # NoticiasElCronista #
 
-    1V.
+    V1.
 --------------------------------------------------------------------------------------------------------------------------------
 -4 diseños del esqueleto de la página.
 
@@ -51,3 +51,8 @@
     V7.
 --------------------------------------------------------------------------------------------------------------------------------
 
+-Arreglado elemento para introducir imagenes.
+
+-Mejora del cargar imagenes a traves de jquery y json en el html.
+
+-Creados y posicionados los botones en el menu de INICIO, Facebook y twitter.
