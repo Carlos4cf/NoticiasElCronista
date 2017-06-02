@@ -56,3 +56,21 @@
 -Mejora del cargar imagenes a traves de jquery y json en el html.
 
 -Creados y posicionados los botones en el menu de INICIO, Facebook y twitter.
+
+--------------------------------------------------------------------------------------------------------------------------------
+    V8.
+--------------------------------------------------------------------------------------------------------------------------------
+
+-Modificado todo el hmtl para que lo cree desde el jquery sin necesidad de escribir tanto codigo en html.
+
+-Arreglado el jquery donde solo necesita 1 metodo para cargar las noticias y no 3 como anteriormente(uno para cada noticia).
+
+-El botón desaparece correctamente.
+
+--------------------------------------------------------------------------------------------------------------------------------
+    V9.
+--------------------------------------------------------------------------------------------------------------------------------
+
+-Rss creado.
+
+-Arreglos de diseño hechos.
